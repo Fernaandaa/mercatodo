@@ -1,0 +1,41 @@
+
+.form-usuario {
+  padding: 100px;
+  margin-top: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2469a0;
+}
+
+.title-login {
+  color: white;
+}
+
+input {
+  margin-top: 5px;
+  width: 100%;
+  height: 20px;
+  border-radius: 7px;
+  border: none;
+  outline: none;
+  padding: 5px 5px;
+}
+
+.container-btn {
+
+  width: 10%;
+  margin: auto;
+}
+.buttom{
+  margin-top: 10px;
+  color: white;
+  background-color: #2469a0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 40px;
+  display: block;
+  padding: 10px;
+}
+
