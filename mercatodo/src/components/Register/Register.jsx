@@ -84,7 +84,7 @@ const Register = () => {
 
 
                     </form>
-                    <Link to="/" className="link">
+                    <Link to="/" className="link1">
                         Volver a Iniciar Sesion
                     </Link>
                 </div>

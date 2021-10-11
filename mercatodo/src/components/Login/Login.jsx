@@ -62,15 +62,15 @@ const Login = () => {
 
 
                     </form>
-                    <Link to="/registro" className="link">
+                    <Link to="/registro" className="link1">
                         Obtener cuenta
                     </Link>
                 </div>
 
             </div>
             <div className="container-btn">
-            <Link to="/admin" className="link">
-                <input className="buttom" type="submit" value="Iniciar Sesion" />
+                <Link to="/admin">
+                    <input className="buttom" type="submit" value="Iniciar Sesion" />
                 </Link>
             </div>
 
