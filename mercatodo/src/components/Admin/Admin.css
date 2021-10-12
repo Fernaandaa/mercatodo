@@ -1,4 +1,19 @@
+.table{
+	width: 100%;
+	border-collapse: collapse;
+}
 
+.table td,.table th{
+  text-align: center;
+  font-size:16px;
+}
+
+.table th{
+	color:#000;
+}
+.icon2{
+	color:rgb(0, 0, 0,80%);
+}
 @media(max-width: 500px){
 	.table thead{
 		display: none;

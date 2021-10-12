@@ -19,13 +19,15 @@ const Admin = () => {
       <table class="table table-bordered">
         <thead>
           <tr>
-            <th scope="col">Id</th>
+            <th scope="col">ID</th>
             <th scope="col">Producto</th>
             <th scope="col">Proveedor</th>
             <th scope="col">Existencia</th>
             <th scope="col">Fecha</th>
             <th scope="col">Categoria</th>
             <th scope="col">Descripción</th>
+            <th scope="col">Editar</th>
+            <th scope="col">Eliminar</th>
           </tr>
         </thead>
         <tbody>
@@ -39,11 +41,11 @@ const Admin = () => {
             <td>Arroz doña pepa</td>
             <td>
           
-          <button type="submit"  class="btn btn-info "><i class="fas fa-wrench"></i></button>
+          <button type="submit"  class="btn btn-info "><i className="fas fa-wrench icon"></i></button>
         </td>
         <td>
        
-          <button type="submit"  class="btn btn-danger "><i class="far fa-trash-alt"></i></button>
+          <button type="submit"  class="btn btn-danger "><i className="far fa-trash-alt icon2"></i></button>
         </td>
           </tr>
           <tr>
