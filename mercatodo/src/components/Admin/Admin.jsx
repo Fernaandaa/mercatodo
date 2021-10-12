@@ -3,6 +3,12 @@ import React from "react";
 const Admin = () => {
   return (
     <>
+
+     
+      <div>
+        <h2>Hola Administrador</h2>
+        <button>Filtrar</button>
+
       <div className="menu">
         <div className="menu__filter">
           <h2>Hola Admin</h2>
@@ -14,6 +20,7 @@ const Admin = () => {
         <div>
           <button>Agregar</button>
         </div>
+
       </div>
 
       <table class="table table-bordered">
