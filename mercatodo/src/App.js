@@ -4,6 +4,7 @@ import Register from "./components/Register/Register"
 import Header from "./components/Header/Header"
 import Footer from "./components/Footer/Footer"
  import Admin from "./components/Admin/Admin"
+ import Add from "./components/Add/Add"
 import { Route, Switch, BrowserRouter as Router } from "react-router-dom";
 
 
@@ -18,6 +19,7 @@ function App() {
       <Route exact path="/" component={Login} />
       <Route exact path="/registro" component={Register} />
       <Route exact path="/admin" component={Admin} />  
+      <Route exact path="/add" component={Add} />  
       
      
       
