@@ -3,9 +3,6 @@ import "./Admin.css"
 const Admin = () => {
   return (
     <Fragment>
-    
-   
-
       <div className="menu">
         <div className="menu__filter">
           <h2>Hola Admin</h2>
