@@ -8,7 +8,7 @@ const Admin = () => {
       <div>
         <h2>Hola Administrador</h2>
         <button>Filtrar</button>
-
+      </div>
       <div className="menu">
         <div className="menu__filter">
           <h2>Hola Admin</h2>
