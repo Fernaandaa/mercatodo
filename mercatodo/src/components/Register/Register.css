@@ -11,10 +11,18 @@
   .title-login {
     color: white;
   }
-  
+  .title-register{
+    margin-top: 20px;
+    margin-bottom:30px ;
+    color: white;
+    text-align: center;
+  }
+  .line{
+    border-bottom: 2px solid white;
+  }
   .input {
     margin-top: 5px;
-    width: 80%;
+    width: 100%;
     height: 20px;
     border-radius: 7px;
     border: none;

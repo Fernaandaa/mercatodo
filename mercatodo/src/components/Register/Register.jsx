@@ -37,8 +37,9 @@ const Register = () => {
         <>
             <div className="form-usuario2">
                 <div className="contenedor-form ">
-                    <h1 className="title-login">REGISTRARSE PARA CONTINUAR</h1>
-
+                    <h1 className="title-login">BIENVENIDO, SEÑOR USUARIO</h1>
+                    <h5 className="title-register">Registrese para continuar</h5>
+                    
                     <form
                         onSubmit={onSubmit}
 
@@ -91,7 +92,7 @@ const Register = () => {
 
             </div>
             <div className="container-btn">
-                <input className="buttom" type="submit" value="Registrarme" />
+                <input className="buttom" type="submit" value="Registrarse" />
             </div>
 
         </>
