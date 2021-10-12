@@ -6,7 +6,7 @@ const Admin = () => {
     <>
      
       <div>
-        <h2>Hola Admin</h2>
+        <h2>Hola Administrador</h2>
         <button>Filtrar</button>
       </div>
       
