@@ -1,5 +1,6 @@
 import React from "react";
 import "./Admin.css"
+import {Link} from 'react-router-dom'
 const Admin = () => {
   return (
     <div className="container-admin">
@@ -12,7 +13,9 @@ const Admin = () => {
           <input type="text" />
         </div>
         <div>
+          <Link to="/add">
           <button  type="button" className="btn .bg-info">Agregar</button>
+          </Link>
         </div>
       </div>
 
