@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom"
-
+import './Register.css'
 
 const Register = () => {
 
@@ -35,7 +35,7 @@ const Register = () => {
 
     return (
         <>
-            <div className="form-usuario">
+            <div className="form-usuario2">
                 <div className="contenedor-form ">
                     <h1 className="title-login">Registrese para continuar</h1>
 
