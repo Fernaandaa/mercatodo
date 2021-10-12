@@ -37,7 +37,7 @@ const Register = () => {
         <>
             <div className="form-usuario2">
                 <div className="contenedor-form ">
-                    <h1 className="title-login">Registrese para continuar</h1>
+                    <h1 className="title-login">REGISTRARSE PARA CONTINUAR</h1>
 
                     <form
                         onSubmit={onSubmit}
@@ -45,7 +45,7 @@ const Register = () => {
                     >
                         <div className="campo-form">
 
-                            <input type="text"
+                            <input className="input" type="text"
                                 id="Nombre"
                                 name="Nombre"
                                 placeholder="Tu Nombre"
@@ -55,7 +55,7 @@ const Register = () => {
                         </div>
                         <div className="campo-form">
 
-                            <input type="email"
+                            <input className="input"  type="email"
                                 id="email"
                                 name="email"
                                 placeholder="Tu Email"
@@ -64,7 +64,7 @@ const Register = () => {
                             />
                         </div>
                         <div className="campo-form">
-                            <input type="password"
+                            <input className="input"  type="password"
                                 id="password"
                                 name="password"
                                 placeholder="Tu Password"
@@ -73,7 +73,7 @@ const Register = () => {
                             />
                         </div>
                         <div className="campo-form">
-                            <input type="password"
+                            <input className="input"  type="password"
                                 id="confirmar"
                                 name="confirmar"
                                 placeholder="Repite tu Password"
