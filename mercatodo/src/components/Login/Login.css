@@ -1,6 +1,6 @@
-.form-usuario {
+ .form-usuario {
   padding: 100px;
-  margin-top: 80px;
+  margin-top: 65px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,4 +47,4 @@ input {
 
 .link1:hover{
   color: white;
-}
+} 
