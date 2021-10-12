@@ -1,13 +1,12 @@
-import React from "react";
+import React, { Fragment } from "react";
 
 const Admin = () => {
   return (
-    <>
-
-     
+    <Fragment>
       <div>
         <h2>Hola Administrador</h2>
         <button>Filtrar</button>
+      </div>
 
       <div className="menu">
         <div className="menu__filter">
@@ -20,7 +19,6 @@ const Admin = () => {
         <div>
           <button>Agregar</button>
         </div>
-
       </div>
 
       <table class="table table-bordered">
@@ -65,7 +63,7 @@ const Admin = () => {
           </tr>
         </tbody>
       </table>
-    </>
+    </Fragment>
   );
 };
 
