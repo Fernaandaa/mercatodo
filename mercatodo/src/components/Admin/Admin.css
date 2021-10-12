@@ -1,19 +1,19 @@
-.table{
-	width: 100%;
-	border-collapse: collapse;
+
+.container-admin{
+	margin-top: 50px;
 }
 
-.table td,.table th{
-  text-align: center;
-  font-size:16px;
+.button{
+	border-radius: 5px;
+	font-size: 30px;
+	margin: auto;
+	background-color: #2469A0;
 }
 
-.table th{
-	color:#000;
-}
 .icon2{
-	color:rgb(0, 0, 0,80%);
+	font-size: 25px;
 }
+
 @media(max-width: 500px){
 	.table thead{
 		display: none;
