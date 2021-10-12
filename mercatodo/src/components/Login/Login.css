@@ -38,3 +38,13 @@ input {
   padding: 10px;
 }
 
+.link1{
+  display: block;
+  margin-top: 30px;
+  text-decoration: none;
+  color: white;
+}
+
+.link1:hover{
+  color: white;
+}
