@@ -16,7 +16,7 @@ const Admin = () => {
         </div>
       </div>
 
-      <table class="table table-bordered">
+      <table className="table table-muted">
         <thead>
           <tr>
             <th scope="col">ID</th>
