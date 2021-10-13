@@ -1,5 +1,5 @@
 import React from "react";
-import Lupa from "../../assets/lupa.png";
+
 import "./User.css";
 const User = () => {
   return (
@@ -11,7 +11,7 @@ const User = () => {
           </div>
           <div className="menu__user--input">
             <input type="text" placeholder="Buscar..." />
-            <img src={Lupa} alt="lupa" />
+           
           </div>
           <div className="user__buttom">
             <button type="button" className="btn .bg-info">
