@@ -8,11 +8,14 @@
   align-items: center;
 }
 .container-add {
-  width: 50%;
+  width: 22%;
+}
+.title-add {
+  font-size: 24px;
+  color: #fff;
 }
 
 .form-control {
-  width: 40%;
   height: 30px;
   margin-top: 10px;
 }
@@ -22,22 +25,26 @@
 }
 .fa-times {
   cursor: pointer;
-  margin-top: 10px;
+  margin-top: 5px;
   font-size: 25px;
 }
-.button-agregar {
-  width: 8%;
-  color: white;
-  background-color: #2469a0;
-  padding: 10px;
-  display: block;
-  margin: auto;
-  margin-top: 10px;
-  border-radius: 10px;
-  border: none;
-  cursor: pointer;
+
+@media (max-width: 768px) {
+  .fa-times {
+    font-size: 20px;
+  }
+  .container-add {
+    width: 40%;
+  }
 }
-.title-add {
-  font-size: 27px;
-  color: #fff;
+@media (max-width: 500px) {
+  .fa-times {
+    font-size: 18px;
+  }
+  .container-add {
+    width: 40%;
+  }
+  .title-add {
+    font-size: 18px;
+  }
 }
