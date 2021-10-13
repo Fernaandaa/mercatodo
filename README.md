@@ -2,7 +2,7 @@
 ***
 Proyecto Colaborativo sobre un inventario online de un supermercado. Utilizaremos React, Django y MySql.
 
-## Technologies
+## Technologías
 * **React**
 * **Mysql2**
 * **Django**
@@ -11,7 +11,7 @@ Proyecto Colaborativo sobre un inventario online de un supermercado. Utilizaremo
 
 ***
 
-## Installation
+## Installación
 ***
 
 $ git clone https://github.com/Fernaandaa/mercatodo.git
@@ -43,7 +43,7 @@ _Aquí debajo dejamos el link del proyecto desplegado_
 **https://**
 
 
-## Collaboración
+## Colaboración
 ***
 Este proyecto fue realizado en colaboracion de :
 * **Fernánda Sánchez, github: https://github.com/Fernaandaa**
