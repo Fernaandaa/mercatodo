@@ -30,7 +30,7 @@ _Solo se requiere de un navegador_
 Google Chrome.
 Mozilla Firefox.
 Microsoft Edge.
-Opera. 
+Opera Mini. 
 Safari.
 
 ```
