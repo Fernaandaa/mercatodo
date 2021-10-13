@@ -1,4 +1,4 @@
-# Merca-Todo 🍲🧀🌮
+# Supermercado MERCATODO
 ***
 Proyecto Colaborativo sobre un inventario online de un supermercado. Utilizaremos React, Django y MySql.
 
