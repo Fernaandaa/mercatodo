@@ -11,7 +11,7 @@ Proyecto Colaborativo sobre un inventario online de un supermercado. Utilizaremo
 
 ***
 
-## Installación
+## Instalación
 ***
 
 $ git clone https://github.com/Fernaandaa/mercatodo.git
