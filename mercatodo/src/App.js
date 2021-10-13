@@ -7,6 +7,8 @@ import Usuario from "./components/User/User"
 import Admin from "./components/Admin/Admin"
 import Add from "./components/Add/Add"
 import { Route, Switch, BrowserRouter as Router } from "react-router-dom";
+import ProductsForm from "./components/ProductsForm/ProductsForm";
+import Home from "./components/home/Home";
 
 
 function App() {
@@ -14,14 +16,14 @@ function App() {
 
     <Router>
         <Header />
-        
+        <Home/> 
       <Switch>
     
-      <Route exact path="/" component={Login} />
+      {/* <Route exact path="/" component={Login} /> */}
       <Route exact path="/registro" component={Register} />
       <Route exact path="/admin" component={Admin} />  
-      <Route exact path="/usuario" component={Usuario}/>
-      <Route exact path="/add" component={Add} />  
+      {/* <Route exact path="/usuario" component={Usuario}/> */}
+      <Route exact path="/add" component={ProductsForm} />  
 
       </Switch>
 
