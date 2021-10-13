@@ -15,8 +15,11 @@ Proyecto Colaborativo sobre un inventario online de un supermercado. Utilizaremo
 ***
 
 $ git clone https://github.com/Fernaandaa/mercatodo.git
+
 $ cd mercatodo/mercatodo 
+
 $ npm i  / npm install
+
 $ npm start
 
 ### Pre-requisitos 📋
