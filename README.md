@@ -27,8 +27,11 @@ $ npm start
 _Solo se requiere de un navegador_
 
 ```
-Google Chrome
-Mozilla Firefox
+Google Chrome.
+Mozilla Firefox.
+Microsoft Edge.
+Opera. 
+Safari.
 
 ```
 
