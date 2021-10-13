@@ -1,8 +1,22 @@
-.form-usuario2{
-    padding: 76px;
-   margin-top: 65px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #2469a0;
+.form-usuario2 {
+  padding: 60px;
+  margin-top: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2469a0;
+}
+.title-register {
+  font-size: 40px;
+  color: white;
+}
+@media (max-width: 768px) {
+  .title-register {
+    font-size: 30px;
+  }
+}
+@media (max-width: 500px) {
+  .title-register {
+    font-size: 25px;
+  }
 }

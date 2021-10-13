@@ -4,8 +4,7 @@
   flex-direction: column;
   margin-top: 115px;
   width: 100%;
-  background-color: rgb(77, 184, 82, 80%)
-  /* background-color: rgb(77, 184, 82, 80%); */
+  background-color: rgb(77, 184, 82, 80%);
 }
 .title-footer {
   text-transform: uppercase;
@@ -14,10 +13,11 @@
   color: white;
 }
 .github {
-
   cursor: pointer;
   color: white;
   font-size: 22px;
   padding-bottom: 2px;
-   
+}
+.github:hover {
+  color: black;
 }

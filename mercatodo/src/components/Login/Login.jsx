@@ -42,7 +42,7 @@ const Login = () => {
                     >
                         <div className="campo-form">
 
-                            <input type="text"
+                            <input className="form-control"type="text"
                                 id="email"
                                 name="email"
                                 placeholder="Tu email"
@@ -51,7 +51,7 @@ const Login = () => {
                             />
                         </div>
                         <div className="campo-form">
-                            <input type="password"
+                            <input className="form-control" type="password"
                                 id="password"
                                 name="password"
                                 placeholder="Tu Password"
@@ -68,11 +68,11 @@ const Login = () => {
                 </div>
 
             </div>
-            <div className="container-btn">
-                <Link to="/admin">
-                    <input className="buttom" type="submit" value="Iniciar Sesion" />
+            
+                <Link to="/admin" className="link1">
+                    <button className="btn-login">Iniciar Sesion</button>
                 </Link>
-            </div>
+            
 
         </>
 

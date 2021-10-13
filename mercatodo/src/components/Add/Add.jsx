@@ -44,7 +44,7 @@ const Add = () => {
                 </div>
 
             </div>
-            <button className="button-agregar">Agregar</button>
+            <button className="btn-login">Agregar</button>
         </>
 
 
