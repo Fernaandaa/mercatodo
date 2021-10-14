@@ -11,11 +11,14 @@ const Home = () => {
         try {
             const res = await Server.listProducts();
             const data = await res.json()
+            console.log(data)
             setProducts(data.products)
+
         } catch (error) {
             console.log(error)
         }
     }
+    console.log(products)
 
     useEffect(() => {
         listProducts();
@@ -40,9 +43,11 @@ const Home = () => {
                     <thead>
                         <tr>
                             <th scope="col">id</th>
-                            <th scope="col">Nombre del producto</th>
-                            <th scope="col">Cantidad</th>
-                            <th scope="col">Acciones</th>
+                            <th scope="col">Categoria</th>
+                            <th scope="col">Descripcion</th>
+                            <th scope="col">Existencias</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Provider</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -51,11 +56,14 @@ const Home = () => {
 
                                 <tr>
                                     <th>{product.id}</th>
-                                    <td>{product.name}</td>
-                                    <td>{product.quantity}</td>
+                                    <td>{product.pro_category}</td>
+                                    <td>{product.pro_description}</td>
+                                    <td>{product.pro_existences}</td>
+                                    <td>{product.pro_name}</td>
+                                    <td>{product.pro_provider}</td>
                                     <td>
                                         <button type="button" onClick={() => history.push(`/update/${product.id}`)} className="btn btn-dark"><i className="fas fa-edit"></i></button>
-                                        <button type="button" onClick={() => product.id && handeleDelete(product.id)} className="btn btn-danger"><i className="fas fa-trash"></i></button>
+                                        <button type="button" onClick={() => product.id && handeleDelete(product.id, product.pro_description)} className="btn btn-danger"><i className="fas fa-trash"></i></button>
 
                                     </td>
                                 </tr>

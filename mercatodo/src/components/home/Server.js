@@ -1,5 +1,5 @@
-const ApiUrl = ""
 
+const ApiUrl = "http://127.0.0.1:8000/api/products/"
 
 export const listProducts = async () => {
     return await fetch(ApiUrl);
@@ -16,8 +16,13 @@ export const addProduct = async (newProduct) => {
             'content-Type' : 'application/json'
         },
         body: JSON.stringify({
-            "name": String(newProduct.name).trim(), 
-            "quantity": parseInt(newProduct.quantity)
+            "pro_category": String(newProduct.pro_category).trim(), 
+            "pro_date": String(newProduct.pro_date).trim(),
+            "pro_description": String(newProduct.pro_description).trim(),
+            "pro_existences": parseInt(newProduct.pro_existences), 
+            "pro_name": String(newProduct.pro_name).trim(),
+            "pro_provider": String(newProduct.pro_provider).trim(),
+
         })
     });
 };
@@ -28,8 +33,13 @@ export const update = async (productId, update) => {
             'content-Type' : 'application/json'
         },
         body: JSON.stringify({
-            "name": String(update.name).trim(), 
-            "quantity": parseInt(update.quantity)
+            "pro_category": String(update.pro_category).trim(), 
+            "pro_date": String(update.pro_date).trim(),
+            "pro_description": String(update.pro_description).trim(),
+            "pro_existences": parseInt(update.pro_existences), 
+            "pro_name": String(update.pro_name).trim(),
+            "pro_provider": String(update.pro_provider).trim(),
+
         })
     });
 };
